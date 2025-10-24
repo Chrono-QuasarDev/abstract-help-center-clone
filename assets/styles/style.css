@@ -86,6 +86,10 @@ a {
   transition: color 0.3s ease;
 }
 
+ul {
+  list-style: none;
+}
+
 
 /* 
 |------------------------------------------------------
@@ -233,4 +237,47 @@ header { background-color: var(--color-surface-dark); }
 
 .icon img {
   width: 100%;
+}
+
+ 
+/* ------------ Footer -------------- */
+footer {
+  padding: 0 2rem 6rem 2rem;
+  background: var(--color-surface-dark);
+  color: var(--color-surface);
+}
+
+.footer-container {
+  display: flex;
+  gap: 4rem;
+  margin-inline: 3rem;
+  padding: 0 0 7rem 0; 
+  position: relative;
+}
+
+.footer-nav-title {
+  margin: 3rem 0 1rem 0;
+}
+/* 
+.about {
+  display: flex;
+  flex-direction: column;
+} */
+
+.contact {
+  margin-top: 2rem;
+}
+
+.legal {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+.legal-content {
+  font-size: var(--fs-lg);
 }
